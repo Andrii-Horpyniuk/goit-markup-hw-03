@@ -5,9 +5,8 @@ body {
 }
 ul {
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 p,
 h1,
@@ -16,8 +15,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 
 a {
@@ -84,8 +89,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-title-btn {
+  min-width: 169px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -93,6 +102,12 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .skills-subtitle {
   font-weight: 500;
@@ -110,6 +125,8 @@ img {
 }
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .team {
   background: #f4f4fd;
@@ -189,7 +206,4 @@ img {
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
-}
-
-.container {
 }
