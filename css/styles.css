@@ -255,6 +255,7 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  border-top: none;
 }
 
 .portfolio-bottom {
