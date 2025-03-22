@@ -31,6 +31,8 @@ a {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
